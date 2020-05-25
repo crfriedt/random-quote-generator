@@ -52,3 +52,7 @@ button{
 .quote-area{
   text-align: center;
 }
+
+#quote{
+  padding:2px;
+}
