@@ -1,4 +1,6 @@
 (function() {
+
+  // quotes
   const quotes = [
     {
       quote:'"I have always believed that each man makes his own happiness and is responsible for his own problems. It is a simple philosophy."',
@@ -55,11 +57,14 @@
 
   ];
 
+  // Grab button element
   const button = document.getElementById("btn");
 
+  // Event listener to button that generates random object from quotes array on click
   button.addEventListener("click", function(){
     let random = Math.floor(Math.random() * quotes.length);
 
+    // modify text content of h3 and paragraph tags
     document.getElementById('quote').textContent = quotes[random].quote;
     document.getElementById('author').textContent = quotes[random].author;
 
