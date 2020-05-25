@@ -1,4 +1,5 @@
 html{
+  font-family: 'Shadows Into Light', cursive;
   height: 100%;
   width: 100%;
   background-image: url('/images/mountainBackground.gif');
@@ -15,11 +16,12 @@ section{
 }
 
 .container{
-  background-color: hotpink;
+  font-size: 30px;
+  background-color: #FFB6C1;
   max-width: 900px;
   width: 100%;
   margin: auto;
-  height: 25vh;
+  height: 35vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,7 +38,7 @@ section{
 
 button{
   font-size: 22px;
-  background-color: darkorchid;
+  background-color: orchid;
   outline: none;
   border: none;
   border-radius: 15px;
@@ -46,4 +48,7 @@ button{
   height: 70px;
   width:300px;
 
+}
+.quote-area{
+  text-align: center;
 }
